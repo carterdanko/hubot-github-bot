@@ -1,9 +1,9 @@
 {
-  "name": "hubot-github-bot",
+  "name": "commodore-github-bot",
   "description": "A hubot script to list and recurrently remind you about open pull requests and pull request assignments.",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "authors": [
-    "Nino D'Aversa <nino@ndaversa.com>"
+    "Carter Danko"
   ],
   "license": "MIT",
   "keywords": [
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ndaversa/hubot-github-bot.git"
+    "url": "git@github.com:carterdanko/hubot-github-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/ndaversa/hubot-github-bot/issues"
+    "url": "https://github.com/carterdanko/hubot-github-bot/issues"
   },
   "dependencies": {
     "coffee-script": "^1.10.0",
@@ -38,5 +38,5 @@
   },
   "homepage": "https://github.com/ndaversa/hubot-github-bot",
   "devDependencies": {},
-  "author": "Nino D'Aversa <nino@ndaversa.com> (http://ndaversa.com)"
+  "author": "Carter Danko"
 }

@@ -1,3 +1,12 @@
+## Difference between this and original upstream currently
+- Ignoring PRs if they are draft status
+- Slack attachment sending less verbose info
+
+## ToDo's and nice to haves
+- Add env variable to not remind if pr is less than X day old
+    - Should be driven via json passed in, along with ignore draft status, or if approved or not
+- Map of github users to slack vs current fuzzy match
+
 # Hubot Github Bot
 A hubot script to list and recurrently remind you about open pull requests.
 Optionally receive direct messages when you are assigned to a pull

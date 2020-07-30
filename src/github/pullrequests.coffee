@@ -31,6 +31,7 @@ class PullRequests
       .then (prs) ->
         return Promise.all prs.map (pr) ->
           return if not pr
+          return if pr.draft
           github = octo.fromUrl(pr.assignee.url) if pr.assignee?.url
           assignee = Utils.lookupUserWithGithub github
           return Promise.all [ pr, assignee ]
